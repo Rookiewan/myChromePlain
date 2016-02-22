@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zn-CN">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/new.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <title>new</title>
+</head>
+<body>
+    <div class='container'>
+        <div class="btns" id='btns'>
+          <a id='btn-collect' class="btn btn-border" href="javascript:;">收藏&nbsp;<i class="fa fa-plus-circle fa-fw fa-lg color1"></i></a>
+          <a id='btn-self' class="btn btn-border" href="javascript:;"><i class="fa fa-angle-left fa-lg color4 iconstyle"></i>个人&nbsp;<i class="fa fa-user fa-fw fa-lg color2"></i></a>
+          <a id='btn-all' class="btn" href="javascript:;"><i class="fa fa-angle-left fa-lg color4 iconstyle"></i>公共&nbsp;<i class="fa fa-eye fa-fw fa-lg color3"></i></a>
+        </div>
+        <div class="shares">
+            <ul class='container-self' id='container-self'>
+                <li class="share-item">
+                    <span class="item-title" title='{{title}}'>淘宝网，我喜欢</span>
+                    <a href="{{url}}" class="item-url" title='前往' target='_blank' ><i class="fa fa-share fa-fw fa-self1"></i></a>
+                    <a href="javascript:;" title='删除' class="item-del" item-id='{{id}}'><i class="fa fa-remove fa-fw fa-self2"></i></a>
+                </li>
+                <li class="share-item">
+                    <span class="item-title" title='{{title}}'>CSS参考手册,web前端开发参考手册系列</span>
+                    <a href="{{url}}" class="item-url" title='前往' target='_blank' ><i class="fa fa-share fa-fw fa-self1"></i></a>
+                    <a href="javascript:;" title='删除' class="item-del" item-id='{{id}}'><i class="fa fa-remove fa-fw fa-self2"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="shares">
+            <ul class='container-all' id='container-all'>
+                <li class="share-item">
+                    <span class="item-title" title='{{title}}'>淘宝网，我喜欢</span>
+                    <a href="{{url}}" class="item-url" title='前往' target='_blank' ><i class="fa fa-share fa-fw fa-self1"></i></a>
+                    <span class="item-nick">"张宁"</span>
+                </li>
+                <li class="share-item">
+                    <span class="item-title" title='{{title}}'>CSS参考手册,web前端开发参考手册系列</span>
+                    <a href="{{url}}" class="item-url" title='前往' target='_blank' ><i class="fa fa-share fa-fw fa-self1"></i></a>
+                    <span class="item-nick">"陈万芳"</span>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,124 @@
+body{
+    font-family: "Microsoft YaHei",Helvetica, Arial, sans-serif;
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.btns{
+    width: 155px;
+    background-color: #fff;
+    -moz-box-shadow:-7px 10px 20px #a0a0a0; 
+    -webkit-box-shadow:-7px 10px 20px #a0a0a0; 
+    box-shadow:-7px 10px 20px #a0a0a0;
+    border-radius: 3px;
+}
+.btn{
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 20px;
+    text-decoration: none;
+    font-size: 13px;
+    text-align: right;
+    color: #000;
+    padding: 6px 5px 6px 5px;
+}
+
+.btn-border{
+    border-bottom: 1px solid #ddd;
+}
+.btns a .fa-lg{
+    vertical-align: -4%;
+}
+.color1{
+    color: #cd0a0e;
+}
+.color2{
+    color: #150576;
+}
+.color3{
+    color: #097819;
+}
+.color4{
+    color: #a0a0a0;
+}
+.iconstyle{
+    float: left;
+    padding-top: 3px;
+}
+.btns a:hover,
+.shares li:hover{
+    background-color: #34cd62;
+    color:#fff;
+    cursor: default;
+}
+/*详细页*/
+.shares{
+    margin-top: 100px;
+    width: 360px;
+    max-height: 650px;
+    min-height: 25px;
+    overflow: auto;
+    background-color: #fff;
+    font-size: 12px;
+    -moz-box-shadow:0px 7px 20px #a0a0a0; 
+    -webkit-box-shadow:0px 7px 20px #a0a0a0; 
+    box-shadow:0px 7px 20px #a0a0a0;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    border-bottom: none;
+}
+
+.container-self,.container-all{
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.share-item{
+    width: 100%;
+    padding: 3px 0 3px 12px;
+    margin-top: 1px;
+    border-bottom: 1px solid #ddd;
+}
+
+.item-title{
+    display: inline-block;
+    width: 70%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: default;
+}
+.container-self .item-url{
+    margin-left: 52px;
+}
+.container-all .item-url {
+    margin-left: 25px;
+}
+.item-url, .item-del{
+    display: inline-block;
+    height:12px;
+    width: 18px;
+    color: #000;
+}
+.item-nick{
+    display: inline-block;
+    width: 50px;
+    cursor: default;
+    vertical-align: 15%;
+}
+.fa-self1{
+    vertical-align: 20%;
+}
+.fa-self2{
+    vertical-align: 35%;
+}
+
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zn-CN">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/new2.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <title>new</title>
+</head>
+<body>
+    <div class="wrap">
+    <!-- 注册 -->
+        <div class="container" id='register'>
+            <div class="header">
+                <h1>主页</h1>
+            </div>
+            <div class="personal personal-position">
+                <div class="personal-img">
+                    <img src="img/1.jpg"/>
+                </div>
+                <p>赠人玫瑰，手有余香</p>
+            </div>
+            <div class="form_group">
+                <div class="form_input">
+                    <input type="text" maxlength="100" autocomplete="off" placeholder="请输入姓名" id='nickName'/> 
+                    <button class="btn btn-register" id='savaNick'><i class="fa fa-check fa-fw"></i></button>
+                </div>
+            </div>
+        </div>
+    <!-- 主页 -->
+        <div class="container" id='home'>
+            <div class="header">
+                <h1>主页</h1>
+            </div>
+            <div class="personal">
+                <div class="personal-img">
+                    <img src="img/1.jpg"/>
+                </div>
+                <p>赠人玫瑰，手有余香</p>
+                <button class="btn btn-collect" id='btn-collect'><i class="fa fa-plus fa-fw"></i>收藏</button>
+            </div>
+            <ul>
+                <li id='personalShare'>
+                    <span class="left-style"><i class="fa fa-user fa-fw"></i></span>个人
+                    <span class="right-style"><i class="fa fa-angle-right fa-lg fa-lg-self"></i></span>
+                </li>
+                <li id='publicShare'>
+                    <span class="left-style"><i class="fa fa-eye fa-fw"></i></span>公共
+                    <span class="right-style"><i class="fa fa-angle-right fa-lg fa-lg-self"></i></span>
+                </li>
+            </ul>
+        </div>
+    <!-- 个人 -->
+        <div class="container" id='personal'>
+            <div class="header">
+                <span class="back-style" id='psBack'><i class="fa fa-angle-left fa-lg fa-back-style"></i></span>
+                <h1>个人</h1>
+            </div>
+
+            <ul class="container-self" id='container-self'>
+                <li class="share-item">
+                    <a class="item-title" href='{{url}}' title='{{title}}'>{{title}}</a>
+                    <a href="javascript:;" title='删除' class="item-del" item-id='{{id}}'><i class="fa fa-trash-o fa-fw fa-self"></i></a>
+                </li>
+            </ul>
+        </div>
+    <!-- 公共 -->
+        <div class="container" id='public'>
+            <div class="header">
+                <span class="back-style" id='pbBack'><i class="fa fa-angle-left fa-lg fa-back-style"></i></span>
+                <h1>公共</h1>
+            </div>
+
+            <ul class="container-self" id='container-all'>
+                <li class="share-item">
+                    <a class="item-title item-title2" href='{{url}}' title='{{title}}'>{{title}}</a>
+                    <span class="item-nick">{{nick}}</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src='js/jquery-1.9.1.min.js'></script>
+    <script src='js/layer.js'></script>
+    <script src='js/yoyaShared.js'></script>
+</body>
+</html>

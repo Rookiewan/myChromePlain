@@ -1,0 +1,18 @@
+{
+	"name":"yoyaShared",
+	"manifest_version":2,
+	"version":"1.5",
+	"icons":{
+		"512":"img/share.png"
+	},
+	"description": "优芽前端分享",
+	"browser_action": {
+		"default_icon":"img/share.png",
+		"default_title": "click me",
+		"default_popup": "new2.html"
+	},
+	"background":{
+		"scripts": ["js/jquery-1.9.1.min.js","js/background.js"]
+	},
+	"permissions":["tabs","http://*.rookiewan.wang/*","http://localhost/*"]
+}
